@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Meland Byggevare As</title>
+
+        <meta name="description" content="Byggtorget AS - en landsomfattende kjede av byggevareforretninger. Kjente merkevarer til gunstige priser.">
+        <meta name="Keywords" content="hus, hytte, garasje, trelast, dører, vinduer, dør, vindu, byggtorg, byggtorget, Byggtorget, BYGGTORGET, byggevarer, Byggtorget AS, bygg, vinduer, kjøkken, verktøy, redskaper, bad, fliser, garderobe, oppussing, lås, beslag, tilbud, kampanje, maling, laminat, parkett, gulv, takrenner, shingel, huskatalog, hyttemeny, bygg med oss">
+    
+        <link href="../css/mbygg_style.css" rel="stylesheet" type="text/css" />
+        <link href="../css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
+    </head>
+    <body>
+        <div id="mbygg_wrapper">
+    	    @RenderPage("~/Shared/_Header.cshtml")
+            @RenderPage("~/Shared/_Menu.cshtml")
+            @RenderPage("~/Shared/_Slider.cshtml")
+
+            @RenderBody()
+     
+            @RenderPage("~/Shared/_Footer.cshtml")
+
+        </div> <!-- end of wrapper -->
+    </body>
+</html>
